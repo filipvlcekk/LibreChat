@@ -58,7 +58,7 @@ registration:
 
 # Definition of custom endpoints
 endpoints:
-  # assistants:
+  assistants:
   #   disableBuilder: false # Disable Assistants Builder Interface by setting to `true`
   #   pollIntervalMs: 3000  # Polling interval for checking assistant updates
   #   timeoutMs: 180000  # Timeout for assistant operations
@@ -68,7 +68,7 @@ endpoints:
   #   # (optional) Models that support retrieval, will default to latest known OpenAI models that support the feature
   #   retrievalModels: ["gpt-4-turbo-preview"]
   #   # (optional) Assistant Capabilities available to all users. Omit the ones you wish to exclude. Defaults to list below.
-  #   capabilities: ["code_interpreter", "retrieval", "actions", "tools", "image_vision"]
+  capabilities: ["code_interpreter", "retrieval", "actions", "tools", "image_vision"]
   custom:
     # Groq Example
     - name: 'groq'
